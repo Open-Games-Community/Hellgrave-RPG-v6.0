@@ -4,6 +4,7 @@ Hellgrave RPG Server is a custom RPG Tibia Server protocol 12.72 created by Edis
 This server has been Updated to the version v6.0 introducing a lot of new content, features and more, to get a longterm play server.
 
 [Hellgrave Client v6.0](https://opengamescommunity.com/index.php?resources/hellgrave-client-v6-0.844/)
+[Hellgrave ZnoteAAC Remastered v5.5 - Compatible v6.0](https://opengamescommunity.com/index.php?resources/hellgrave-remastered-znoteaac-v5-5-compatible-v6-0.845/)
 
 Update v6.0 introduces:
 
