@@ -3,6 +3,8 @@
 Hellgrave RPG Server is a custom RPG Tibia Server protocol 12.72 created by Edisondario Team using the Otservbr base fork.
 This server has been Updated to the version v6.0 introducing a lot of new content, features and more, to get a longterm play server.
 
+[Hellgrave Client v6.0](https://opengamescommunity.com/index.php?resources/hellgrave-client-v6-0.844/)
+
 Update v6.0 introduces:
 
 - New Island called "Kindernia" For non-vocations, players will now start on a new island that they can leave it at level 30, choose their class and their destination.
