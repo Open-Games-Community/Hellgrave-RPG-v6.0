@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Master of Souls" walkinterval="0" floorchange="0" currency="12295" script="master_of_souls.lua">
+	<health now="100" max="100"/>
+	<look typeex="8291" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Dear |PLAYERNAME|, are you looking for something?.  "/>
+		</parameters>
+</npc>

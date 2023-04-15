@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="An ancient evil is awakening in the mines beneath Freewind." />
+	<announce delay="30000" type="Event" message="Demonic entities are entering the mortal realm in the Freewind mines." />
+	<announce delay="60000" type="Event" message="The demonic master has revealed itself in the mines of Freewind." />
+	<!--Single Spawns-->
+	<singlespawn delay="60000" name="Ghazbaran" x="32520" y="32664" z="11"/>
+	<!--Area Spawns-->
+	<areaspawn delay="53000" fromx="32511" fromy="32661" fromz="11" tox="32516" toy="32670" toz="11">
+		<monster name="Deathslicer" amount="4" />
+	</areaspawn>
+	<areaspawn delay="55000" fromx="32503" fromy="32663" fromz="11" tox="32505" toy="32667" toz="11">
+		<monster name="Juggernaut" amount="2" />
+	</areaspawn>
+	<areaspawn delay="56000" fromx="32497" fromy="32663" fromz="11" tox="32500" toy="32665" toz="11">
+		<monster name="Fury" amount="3" />
+	</areaspawn>
+	<areaspawn delay="58000" fromx="32510" fromy="32660" fromz="11" tox="32510" toy="32671" toz="11">
+		<monster name="Demon" amount="3" />
+	</areaspawn>
+</raid>

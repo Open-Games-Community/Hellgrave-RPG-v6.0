@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="event" message="Barbarians are gathering at north-east of Freewind.
+		They seem to be up to something." />
+	<announce delay="20000" type="event" message="The barbarian pack is roaming around in Barbarian Planes." />
+	<!--Single Spawns-->
+	<areaspawn delay="20000" fromx="32662" fromy="32762" fromz="7" tox="32672" toy="32768" toz="7">
+		<monster name="Barbarian Bloodwalker" amount="3" />
+		<monster name="Barbarian Brutetamer" amount="3" />
+		<monster name="Barbarian Headsplitter" amount="5" />
+		<monster name="Barbarian Skullhunter" amount="5" />
+	</areaspawn>
+</raid>

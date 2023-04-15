@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ordalie" walkinterval="1100" speed="120" walkradius="5" floorchange="0" script="ordalie.lua">
+    <health max="10000" now="10000"/>
+    <look type="1070" head="115" body="104" legs="46" feet="41" addons="3" mount="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello dear |PLAYERNAME|! You are looking for the {Arch} ?." />
+    </parameters>
+</npc>

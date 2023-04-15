@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--Announcements-->
+    <announce delay="1000" type="Event" message="Zushuka as been seen at the tip of Freewind! ." />
+	<!--Single Spawns-->
+	<singlespawn delay="1000" name="Zushuka" x="32711" y="32649" z="5"/>
+</raid>

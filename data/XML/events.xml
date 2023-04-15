@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event name="Create an Event" startdate="11/03/2022" enddate="11/30/2022" script="example.lua" >
+		<ingame exprate="250" lootrate="200" spawnrate="100" skillrate="200" />
+		<description description="Events on Hellgrave write here! " />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="1" isseasonal="0" specialevent="0" />
+	</event>
+	
+</events>

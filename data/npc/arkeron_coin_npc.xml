@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Khadin" walkinterval="1500" floorchange="0" currency="25992" script="arkeron_coin_npc.lua">
+	<health now="100" max="100"/>
+	<look type="931" head="91" body="73" legs="61" feet="27" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, do you have some Arkeron Coins to {trade} ?.   "/>
+	</parameters>
+</npc>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Vexis" walkinterval="1500" floorchange="0" currency="41944" script="master_normal_slivers.lua">
+	<health now="100" max="100"/>
+	<look type="1618" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME| to my shop, i will offer you Slivers if you {Trade} some items.  "/>
+	</parameters>
+</npc>

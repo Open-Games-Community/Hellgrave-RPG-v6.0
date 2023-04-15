@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Eliminate the vermin that comes out of the sewers of Mordragor! " />
+	<areaspawn delay="1000" fromx="32323" fromy="32225" fromz="7" tox="32386" toy="32284" toz="7">
+		<monster name="rat" amount="20" />
+		<monster name="cave rat" amount="25" />
+	</areaspawn>
+</raid>

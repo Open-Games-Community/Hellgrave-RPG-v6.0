@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<npc name="Silthide" walkinterval="2000" floorchange="0" script="ressource_seller.lua">
+	<health now="150" max="150"/>
+	<look type="1628" head="0" body="0" legs="0" feet="0" addons="0" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="I buy some kind of resources, just say {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			evil eye, 7729, 1000000;
+			lava stomach, 8190, 10000;
+			elder dragon tail, 10142, 10000;
+			mysterious scroll, 10158, 150000;
+			protruding eyes, 10943, 2500;
+			dragon egg, 10944, 20000;
+			scorpion tail, 10945, 10000;
+			luminous insect, 11106, 15000;
+			blue dragon tail, 11135, 5000;
+			evil dragon wing, 26338, 10000;
+			mistery coin, 12295, 350000;
+			rare bird feather, 12297, 12500;
+			mystic feather, 12300, 7500;
+			sky feather, 12303, 3500;
+			treasure map, 12289, 15000;
+			fragmented treasure map, 12290, 7500;
+			divine elixir, 10140, 1000000;
+			glorious elixir, 10141, 90000;
+			dragon egg, 11400, 2750;
+			chaos blood, 27605, 45000;
+			sky dragon wing, 11774, 10000;"/>
+	</parameters>
+</npc>

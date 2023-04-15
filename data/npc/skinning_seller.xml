@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<npc name="Malygos" walkinterval="1500" speed="120" walkradius="2" floorchange="0" script="skinning_seller.lua">
+	<health now="150" max="150"/>
+	<look type="1279" head="69" body="90" legs="31" feet="73" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, do you want to check my shop ? Send me a {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			large chunk of meat, 10100, 195;
+			thick leather, 10101, 405;
+			tiger fur, 10102, 500;
+			hardened skin, 10104, 2000;
+			carnivorous ham, 10105, 385;
+			giant monster fur, 14351, 720;
+			giant monster scale, 10106, 570;
+			monster ribs, 10107, 225;
+			monster coast, 10108, 630;
+			giant monster ribs, 10109, 400;
+			rare leather, 10122, 925;
+			dorsal fur, 10124, 475;
+			monster tail, 10125, 520;
+			fractured bone, 10126, 600;
+			monster hair, 10127, 295;
+			clogs, 10128, 290;
+			tail bone, 10129, 2835;
+			monster horn, 10130, 3360;
+			monster skull, 10131, 3650;
+			pair of ribs bones, 10132, 360;
+			golden dragon scale, 10133, 8075;
+			silver dragon scale, 10134, 715;
+			monster intestine, 10135, 590;
+			skull of dragon, 10136, 650;
+			monster jaw, 10137, 380;
+			monster paw, 10032, 225;
+			vertebral column, 10138, 680;
+			dorsal bone, 10139, 2560;"/>
+	</parameters>
+</npc>

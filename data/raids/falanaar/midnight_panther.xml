@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--Announcements-->
+	<announce delay="800" type="event" message="Midnight panther is out!" />
+	<areaspawn delay="2000" fromx="31933" fromy="32496" fromz="7" tox="31968" toy="32466" toz="7">
+		<monster name="Midnight Panther" amount="1" />
+	</areaspawn>
+</raid>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Charsi" walkinterval="1100" speed="120" walkradius="5" floorchange="0" script="charsi.lua">
+    <health max="10000" now="10000"/>
+    <look type="1489" head="125" body="114" legs="96" feet="41" addons="3" mount="1284"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello dear |PLAYERNAME|! You are looking for the {Arch} ?." />
+    </parameters>
+</npc>

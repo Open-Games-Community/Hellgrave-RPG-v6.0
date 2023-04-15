@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Kimerin" walkinterval="1100" speed="120" walkradius="1" floorchange="0" script="kimerin.lua">
+    <health max="10000" now="10000"/>
+    <look type="1331" head="88" body="51" legs="76" feet="11" addons="3" mount="1650"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello dear |PLAYERNAME|! Have you found any {traces} of rare monsters? {If you have fight one of them, just ask me he's name}." />
+    </parameters>
+</npc>

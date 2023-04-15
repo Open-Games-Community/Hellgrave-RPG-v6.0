@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Token Master" walkinterval="1500" floorchange="0" currency="42027" script="master_hell_token.lua">
+	<health now="100" max="100"/>
+	<look type="1067" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="{Trade} your stuff for Hell Tokens.   "/>
+	</parameters>
+</npc>

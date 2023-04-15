@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zarizz" walkinterval="1500" floorchange="0" currency="27306" script="electrical_token_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1068" head="81" body="12" legs="29" feet="22" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Upgrading Runes for Electrical Tokens."/>
+	</parameters>
+</npc>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gomegaz" walkinterval="1500" floorchange="0" currency="26320" script="silver_mirror_token_npc.lua">
+	<health now="100" max="100"/>
+	<look type="610" head="81" body="32" legs="111" feet="34" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Rare Materials for Silver Mirror Tokens."/>
+	</parameters>
+</npc>

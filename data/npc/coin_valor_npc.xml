@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Galra" walkinterval="1500" floorchange="0" currency="26312" script="coin_valor_npc.lua">
+	<health now="100" max="100"/>
+	<look type="542" head="88" body="64" legs="50" feet="83" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} Mining materials for some Coins of Valor."/>
+	</parameters>
+</npc>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<npc name="Herve" walkinterval="1500" speed="120" walkradius="2" floorchange="0" script="woodcutting_seller.lua">
+	<health now="150" max="150"/>
+	<look type="539" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, do you want to check my shop ? Send me a {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			wood branch, 14342, 390;
+			empty tree trunk, 8699, 21450;
+			thick branch, 8707, 175;
+			thin branches, 8701, 215;
+			big branch, 8710, 780;
+			tree trunk, 14346, 1170;
+			enormous tree trunk, 8977, 3120;"/>
+	</parameters>
+</npc>

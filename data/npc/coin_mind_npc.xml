@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Shas'ith" walkinterval="0" floorchange="0" currency="26317" script="coin_mind_npc.lua">
+	<health now="100" max="100"/>
+	<look type="366" head="28" body="34" legs="41" feet="60" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some fishing materials for Coins of Mind."/>
+	</parameters>
+</npc>

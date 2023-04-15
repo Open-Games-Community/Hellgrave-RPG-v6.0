@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Globesang" walkinterval="1500" floorchange="0" currency="27311" script="cursed_token_npc.lua">
+	<health now="100" max="100"/>
+	<look type="512" head="41" body="92" legs="107" feet="101" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Transcending Materials for Cursed Tokens."/>
+	</parameters>
+</npc>

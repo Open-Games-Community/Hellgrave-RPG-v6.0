@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sphato" walkinterval="1500" floorchange="0" currency="41670" script="master_eldritch_crystal.lua">
+	<health now="100" max="100"/>
+	<look type="1633" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME| to my shop, i will offer you Eldritch Crystal's if you {Trade} some resources.   "/>
+	</parameters>
+</npc>

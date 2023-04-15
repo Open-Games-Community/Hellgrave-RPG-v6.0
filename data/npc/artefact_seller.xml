@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<npc name="Strefia" walkinterval="1500" speed="120" walkradius="2" floorchange="0" script="artefact_seller.lua">
+	<health now="150" max="150"/>
+	<look type="1068" head="41" body="68" legs="10" feet="6" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, do you want to check my shop ? Send me a {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+		scroll of inscriptions, 21251, 175;"/>
+		<parameter key="shop_sellable" value="
+			fire artefact, 9676, 4500;
+			arch of riddles, 9677, 10000;
+			karma arch, 11428, 4000;
+			arch of destruction, 9693, 250000;
+			hells arch, 9694, 35000;
+			damnation ark, 9696, 28500;
+			orb of nature, 9697, 19000;
+			orb of misery, 9698, 70000;
+			curse of monolith, 9699, 300000;
+			dream catcher, 9735, 300000;
+			supremacy relic, 10119, 400000;
+			mirror relic, 10071, 85000;
+			necromancer relic, 10072, 45000;
+			relic of benediction, 10073, 68000;
+			relic of nature, 10074, 15000;
+			relic of cosmos, 10075, 80000;
+			relic of the sky, 10089, 105000;
+			relic of venom, 2088, 9000;
+			enigma relic, 14350, 275000;
+			evil relic, 10092, 180000;
+			celestial relic, 18547, 320000;
+			elemental relic, 10096, 45000;
+			water relic, 10097, 8000;"/>
+	</parameters>
+</npc>

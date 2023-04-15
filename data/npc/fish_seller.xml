@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<npc name="Rosula" walkinterval="1500" speed="120" walkradius="2" floorchange="0" script="fish_seller.lua">
+	<health now="150" max="150"/>
+	<look type="724" head="14" body="46" legs="35" feet="102" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, do you want to check my shop ? Send me a {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+			worm, 14354, 2;
+			fishing line, 10926, 150;
+			hook, 10942, 450;
+			double hook, 10928, 1150;"/>
+		<parameter key="shop_sellable" value="
+			ink snapper, 10302, 12700;
+			purple seadream, 2629, 50200;
+			perch, 2630, 185;
+			frozen icefish, 2631, 55715;
+			tench, 2632, 230;
+			lard bass, 2633, 320;
+			tupe-halett pike, 2634, 190;
+			tiger fish, 2635, 1620;
+			igloo fish, 2637, 40290;
+			trout, 2639, 1785;
+			muddy trout, 10303, 275;
+			grawn, 10304, 10425;
+			gudgeon, 10308, 350;
+			unique kralove, 10306, 1260;
+			kralove, 10307, 2000;
+			kiye gudgeon, 10613, 6905;
+			contest snapper, 10614, 36925;
+			shiny sardine, 10616, 1275;
+			humonk fish, 11100, 1920;"/>
+	</parameters>
+</npc>

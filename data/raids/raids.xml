@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+	<!-- Mordragor -->
+	<raid name="Rats" file="mordragor/rats.xml" interval2="300" margin="80" />
+	<raid name="Chests" file="mordragor/chest_event.xml" interval2="500" margin="80" />
+	<raid name="Orcs" file="mordragor/orcs.xml" interval2="500" margin="70" />
+	<!-- Roshamuul -->
+	<raid name="Gaz" file="roshamuul/gaz_haragoth.xml" interval2="700" margin="160" />
+	<raid name="Mawhawk" file="roshamuul/mawhawk.xml" interval2="410" margin="20" />
+	<raid name="Omrafir" file="roshamuul/omrafir.xml" interval2="700" margin="80" />
+	<!-- Freewind -->
+	<raid name="BarbaBitter" file="freewind/barba_bittermor.xml" interval2="500" margin="40" />
+	<raid name="Ghazbaran" file="freewind/ghazbaran.xml" interval2="700" margin="100" />
+	<raid name="Zushuka" file="freewind/zushuka.xml" interval2="900" margin="60"/>
+	<!-- Falanaar -->
+	<raid name="Midnight Panther" file="falanaar/midnight_panther.xml" interval2="280" margin="20"/>
+	<raid name="Ferumbras" file="falanaar/ferumbras.xml" interval2="700" margin="120" />
+	<raid name="Zulazza the Corruptor" file="falanaar/zulazza_the_corruptor.xml" interval2="700" margin="60" />
+	<!-- Dolwatha -->
+	<raid name="Crustacea Gigantica" file="dolwatha/crustacea_gigantica.xml" interval2="300" margin="20"/>
+	<raid name="Morgaroth" file="dolwatha/morgaroth.xml" interval2="850" margin="90" />
+	<raid name="Orshabaal" file="dolwatha/orshabaal.xml" interval2="1000" margin="100" />
+	<raid name="Gaffir" file="dolwatha/gaffir.xml" interval2="350" margin="100" />
+	<!-- Bounac -->
+	<raid name="Drume" file="bounac/drume.xml" interval2="400" margin="20"/>
+</raids>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Serator" walkinterval="1500" floorchange="0" currency="27386" script="master_ancient_token.lua">
+	<health now="100" max="100"/>
+	<look type="731" head="57" body="76" legs="77" feet="57" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, you can {trade} some Wolf Tokens."/>
+	</parameters>
+</npc>

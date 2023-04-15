@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ayasanth" walkinterval="1500" floorchange="0" currency="26316" script="endless_coin_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1385" head="88" body="44" legs="81" feet="40" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some general materials for Endless Coins."/>
+	</parameters>
+</npc>

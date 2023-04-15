@@ -1,0 +1,8 @@
+dofile('data/startup/tables/corpse.lua')
+dofile('data/startup/tables/door_key.lua')
+dofile('data/startup/tables/item_daily_reward.lua')
+dofile('data/startup/tables/item_unmoveable.lua')
+dofile('data/startup/tables/npc_spawn.lua')
+dofile('data/startup/tables/tile.lua')
+dofile('data/startup/tables/door_quest.lua')
+dofile('data/startup/tables/chest.lua')

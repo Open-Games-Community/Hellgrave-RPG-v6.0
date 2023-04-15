@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nefarian" walkinterval="1500" floorchange="0" currency="26322" script="demonic_token_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1444" head="108" body="100" legs="49" feet="57" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Demoniac materials for Demonic Tokens."/>
+	</parameters>
+</npc>

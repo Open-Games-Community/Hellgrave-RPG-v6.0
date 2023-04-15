@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npc name="Dionysos" walkinterval="2000" floorchange="0" script="dionysos.lua">
+	<health now="150" max="150"/>
+	<look type="504" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+			blessed wooden stake,5942,25000;
+			obsidian knife,5908, 16000;
+			leather whip,13293,100000;
+			music box,18511,975000;"/>
+		<parameter key="shop_sellable" value=";"/>	
+			</parameters>
+</npc>

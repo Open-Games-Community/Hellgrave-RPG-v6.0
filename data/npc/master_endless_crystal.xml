@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zorim" walkinterval="1500" floorchange="0" currency="32447" script="master_endless_crystal.lua">
+	<health now="100" max="100"/>
+	<look type="1288" head="0" body="0" legs="0" feet="0" addons="3" mount="1321"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME| can i help you ? Do you want to {Trade} some rare items?.   "/>
+	</parameters>
+</npc>

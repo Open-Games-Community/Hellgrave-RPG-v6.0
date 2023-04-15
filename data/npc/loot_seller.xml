@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<npc name="Marthanos" walkinterval="2000" floorchange="0" script="loot_seller.lua">
+	<health now="150" max="150"/>
+	<look type="958" head="24" body="51" legs="45" feet="12" addons="3" mount="960"/>
+	<parameters>
+		<parameter key="message_greet" value="I buy some kind of equipments, just say {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			kusari helmet, 34629, 65000;
+			kusari armor, 34630, 75000;
+			kusari shield, 34633, 75000;
+			dark crystal helmet, 35063, 30000;
+			dark crystal armor, 35064, 45000;
+			dark crystal legs, 35065, 30000;
+			dark crystal boots, 35066, 25000;
+			helmet of fate, 35084, 25000;
+			armor of fate, 35085, 40000;
+			legs of fate, 35086, 30000;
+			boots of fate, 35087, 25000;
+			dark crystal wand, 35088, 60000;
+			wand of flame, 35089, 40000;
+			rod of flame, 35090, 40000;
+			kor'kron helmet, 41925, 30000;
+			kor'kron armor, 41753, 40000;
+			kor'kron legs, 41754, 30000;
+			kor'kron boots, 41755, 30000;
+			brutal gladiator helmet, 41688, 25000;
+			brutal gladiator armor, 41689, 35000;
+			brutal gladiator legs, 41683, 28000;
+			brutal gladiator boots, 41684, 12000;
+			elven hood quiver, 41461, 45000;
+			wood quiver, 42040, 19500;
+			refined wood quiver, 42041, 30000;
+			ornamented wood quiver, 42042, 45000;
+			peaceful quiver, 41457, 19500;
+			ogreskull shield, 36814, 19000;
+			aspiring shield, 36813, 30000;
+			sepulcher armor, 36811, 9000;
+			scourgelord legs, 36808, 1000;
+			scourgelord helmet, 36807, 3000;
+			funerary boots, 36806, 850;
+			funerary legs, 36805, 950;
+			funerary armor, 36804, 1100;
+			funerary helmet, 36803, 1000;
+			gul'dan helmet, 36802, 11000;
+			gronnstalker armor, 36800, 11500;
+			gronnstalker legs, 36799, 9000;
+			gronnstalker boots, 36798, 6500;
+			defias axe, 36952, 6000;
+			defias wand, 36951, 6000;
+			defias bow, 36957, 6000;
+			defias shield, 36950, 6000;
+			defias club, 39429, 6000;
+			defias sword, 36428, 6000;
+			plagueheart sword, 39405, 11000;
+			aldor axe, 39406, 12000;
+			sanctified wand, 39404, 4000;
+			sanctified boots, 39403, 2000;
+			sanctified pants, 39402, 3500;
+			sanctified armor, 39401, 4000;
+			sanctified helmet, 39400, 4000;
+			defias boots, 39399, 3500;
+			defias legs, 39398, 5000;
+			defias armor, 39397, 6000;
+			defias helmet, 39860, 6000;
+			colossal sword, 39858, 25000;
+			stalker axe, 39859, 25000;
+			cataclysm spellbook, 39856, 7000;
+			deathbone spellbook, 39854, 6000;
+			phantomas legs, 40730, 115000;
+			phantomas boots, 39278, 95000;
+			deathbone armor, 40728, 24000;
+			darkbone armor, 40729, 15000;
+			exalted legs, 40727, 225000;
+			unchained backpack, 40723, 22000;
+			unchained boots, 40722, 4500;
+			unchained legs, 40721, 6000;
+			unchained armor, 40720, 10000;
+			unchained helmet, 40719, 8000;
+			saronite helmet, 40713, 12500;
+			saronite armor, 40714, 16000;
+			saronite legs, 40715, 11000;
+			saronite boots, 40716, 7000;
+			saronite backpack, 40717, 22000;
+			saronite shield, 40718, 9000;
+			relentless helmet, 40707, 8500;
+			relentless armor, 40708, 9000;
+			relentless legs, 40709, 6000;
+			relentless boots, 40710, 4000;
+			relentless backpack, 40712, 22000;
+			relentless shield, 40711, 5000;
+			bloodscale armor, 41780, 22000;
+			bloodscale helmet, 41785, 19000;
+			bloodscale legs, 40686, 16000;
+			bloodscale backpack, 40687, 26000;
+			bloodscale axe, 40688, 20000;
+			bloodscale club, 40689, 20000;
+			bloodscale great axe, 40690, 20000;
+			bloodscale wand, 40691, 20000;
+			bloodscale bow, 40692, 20000;
+			bloodscale shield, 40693, 16500;
+			bloodscale boots, 40694, 9000;
+			allister helmet, 39279, 27000;
+			frozen hell wand, 39277, 11000;
+			frozen hell axe, 39276, 11000;
+			frozen hell bow, 39275, 11000;
+			frozen hell shield, 39274, 11000;
+			shattered rod, 39271, 10500;
+			shattered sword, 39270, 10500;
+			betrayed armor, 39268, 22000;
+			retching armor, 39269, 27000;
+			shattered boots, 41472, 9000;
+			shattered legs, 41471, 13500;
+			shattered armor, 41470, 17000;
+			shattered helmet, 41469, 15000;
+			foresworn sword, 39291, 3500;
+			foresworn club, 39292, 3500;
+			foresworn axe, 39212, 3500;
+			foresworn wand, 39213, 3500;
+			foresworn backpack, 39247, 22000;
+			foresworn helmet, 39248, 2500;
+			foresworn armor, 39249, 4000;
+			foresworn legs, 39250, 2800;
+			foresworn boots, 39251, 1500;"/>
+	</parameters>
+</npc>

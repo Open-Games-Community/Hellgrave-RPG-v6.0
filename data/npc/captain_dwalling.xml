@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Dwalling" walkinterval="2000" floorchange="0" script="captain_dwalling.lua">
+	<health now="100" max="100"/>
+	<look type="1243" head="41" body="99" legs="65" feet="33" addons="3"/>
+</npc>

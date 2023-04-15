@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<npc name="Melkhop" walkinterval="2000" floorchange="0" script="chaos_essence.lua">
+	<health now="150" max="150"/>
+	<look type="1301" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="I buy some kind of stones and essences, just say {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			mystic stone fragment, 36978, 17;
+			abyssal stone fragment, 36979, 36;
+			ascending stone fragment, 36980, 58;
+			chaos stone fragment, 36981, 80;
+			mystic stone essence, 36982, 1700;
+			abyssal stone essence, 36983, 3600;
+			ascending stone essence, 36984, 5800;
+			chaos stone essence, 36985, 8000;
+			mystic essence, 36986, 17000;
+			abyssal essence, 36987, 36000;
+			ascending essence, 36988, 58000;
+			chaos essence, 36989, 80000;"/>
+	</parameters>
+</npc>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Ecthelion" walkinterval="2000" floorchange="0" script="captain_ecthelion.lua">
+	<health now="100" max="100"/>
+	<look type="1161" head="39" body="115" legs="80" feet="17" addons="3"/>
+</npc>

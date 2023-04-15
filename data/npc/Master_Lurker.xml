@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Master Lurker" walkinterval="2000" floorchange="0" script="Master_Lurker.lua">
+	<health now="100" max="100"/>
+	<look type="1206" head="78" body="64" legs="37" feet="131" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, are you looking to {repair lurker} boots? "/>
+	</parameters>
+</npc>

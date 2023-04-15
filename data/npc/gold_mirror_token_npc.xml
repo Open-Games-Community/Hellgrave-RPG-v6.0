@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Iridikron" walkinterval="1500" floorchange="0" currency="26321" script="gold_mirror_token_npc.lua">
+	<health now="100" max="100"/>
+	<look type="899" head="104" body="74" legs="56" feet="73" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Exclusive Materials for Gold Mirror Tokens."/>
+	</parameters>
+</npc>

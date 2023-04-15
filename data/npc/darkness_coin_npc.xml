@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Loque'nahak" walkinterval="1500" floorchange="0" currency="26311" script="darkness_coin_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1136" head="19" body="23" legs="91" feet="107" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} Relics and Artefacts for some Darkness Coins."/>
+	</parameters>
+</npc>

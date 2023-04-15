@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gluth" walkinterval="1100" speed="120" walkradius="5" floorchange="0" script="gluth.lua">
+    <health max="10000" now="10000"/>
+    <look type="964" head="58" body="101" legs="111" feet="11" addons="3" mount="1455" />
+    <parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|, can i {help} you ?." />
+    </parameters>
+</npc>

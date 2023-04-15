@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="I am a true knight of the lion, you will never defeat the true order, the falcons will come to my aid in need!." />
+	<!--Single Spawns-->
+	<singlespawn delay="8000" name="Drume" x="31613" y="32195" z="7"/>
+</raid>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Altairus" walkinterval="1500" floorchange="0" currency="26315" script="spirit_coin_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1338" head="33" body="64" legs="45" feet="120" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Herbalists materials for Spirit Coins."/>
+	</parameters>
+</npc>

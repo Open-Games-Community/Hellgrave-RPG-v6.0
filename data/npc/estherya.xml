@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Estherya" walkinterval="2000" floorchange="0" currency="42027" script="estherya.lua">
+    <health now="150" max="150"/>
+    <look type="1657"/>
+    <parameters>
+        <parameter key="message_greet" value="Blessings, |PLAYERNAME|! How may I be of service? Do you wish to trade some {Tokens} for {Outfits}?"/>
+        <parameter key="message_farewell" value="Make your own destiny, |PLAYERNAME|."/>
+    </parameters>
+</npc>

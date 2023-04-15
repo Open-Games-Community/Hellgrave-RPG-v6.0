@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Veridis" walkinterval="1500" floorchange="0" currency="27304" script="crystal_token_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1042" head="11" body="32" legs="109" feet="37" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Potions for Crystal Tokens."/>
+	</parameters>
+</npc>

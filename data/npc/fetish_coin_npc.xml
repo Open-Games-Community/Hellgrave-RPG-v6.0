@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Doleroc" walkinterval="1500" floorchange="0" currency="26319" script="fetish_coin_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1136" head="98" body="84" legs="71" feet="47" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some lumberjack materials for Fetish Coins."/>
+	</parameters>
+</npc>

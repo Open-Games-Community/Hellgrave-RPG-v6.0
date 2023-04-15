@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<npc name="Gottum" walkinterval="1500" speed="120" walkradius="2" floorchange="0" script="minner_seller.lua">
+	<health now="150" max="150"/>
+	<look type="507" head="100" body="73" legs="67" feet="79" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, do you want to check my shop ? Send me a {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+			orange backpack, 10519, 20;
+			orange bag, 10520, 5;
+			rope, 2120, 50;
+			shovel, 2554, 50;
+			torch, 2050, 2;"/>
+		<parameter key="shop_sellable" value="
+			magma stone, 7705, 415;
+			magma ore, 4871, 1245;
+			precious magma crystal, 5937, 21975;
+			crystal stone, 5089, 375;
+			crystal ore, 7733, 1125;
+			precious crystal, 5802, 21375;
+			solar stone, 7736, 425;
+			solar ore, 4867, 1275;
+			precious solar crystal, 5799, 22125;
+			amethyst stone, 7844, 505;
+			amethyst ore, 4866, 1515;
+			precious amethyst crystal, 4873, 23325;
+			amber stone, 4854, 700;
+			amber ore, 7845, 2100;
+			precious amber crystal, 4865, 26250;
+			lava stone, 7846, 390;
+			lava ore, 4855, 1170;
+			precious lava crystal, 4870, 21600;
+			light solar stone, 4851, 345;
+			light solar ore, 4852, 1035;
+			precious light solar crystal, 5939, 20925;
+			malachite stone, 4853, 460;
+			malachite ore, 6087, 1380;
+			precious malachite crystal, 6088, 22650;
+			sapphir stone, 4872, 570;
+			sapphir ore, 14336, 1710;
+			precious sapphir crystal, 5938, 24300;
+			gold stone, 4858, 700;
+			gold ore, 4869, 2100;
+			precious gold crystal, 4868, 26250;
+			bar of bronze, 42051, 3900;
+			bar of silver, 42050, 7500;
+			bar of gold, 15515, 10000;
+			bar of amber, 42052, 36750;
+			demoniac bar, 42061, 65700;"/>
+	</parameters>
+</npc>

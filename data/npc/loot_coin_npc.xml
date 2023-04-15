@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Unatos" walkinterval="1500" floorchange="0" currency="26310" script="loot_coin_npc.lua">
+	<health now="100" max="100"/>
+	<look type="1251" head="41" body="93" legs="21" feet="27" addons="3" mount="1247"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} imbuements materials for some Loot Coins."/>
+	</parameters>
+</npc>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Rivendell" walkinterval="2000" floorchange="0" script="captain_rivendell.lua">
+	<health now="100" max="100"/>
+	<look type="1069" head="9" body="44" legs="132" feet="87" addons="3"/>
+</npc>

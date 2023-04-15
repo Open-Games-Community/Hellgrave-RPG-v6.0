@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Collector" walkinterval="2000" floorchange="0" currency="42027" script="collection.lua">
+    <health now="150" max="150"/>
+    <look type="733" head="114" body="107" legs="94" feet="45" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Greetings |PLAYERNAME|. Do you want to start doing your own {collection}? Or did you have {completed} your collection ?"/>
+        <parameter key="message_farewell" value="Make your own collection, |PLAYERNAME|, get rewarded a demoniac egg if you complete the collection."/>
+    </parameters>
+</npc>

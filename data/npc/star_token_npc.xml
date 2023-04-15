@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ebyssian" walkinterval="1500" floorchange="0" currency="27305" script="star_token_npc.lua">
+	<health now="100" max="100"/>
+	<look type="430" head="61" body="52" legs="99" feet="17" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} some Parangon and Chaos materials for Star Tokens."/>
+	</parameters>
+</npc>

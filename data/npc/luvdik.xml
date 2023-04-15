@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Luvdik" walkinterval="1500" speed="100" walkradius="2" floorchange="0" script="luvdik.lua">
+    <health max="100" now="100"/>
+    <look type="540" head="0" body="0" legs="0" feet="0" addons="0" mount="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello dear |PLAYERNAME|! Are you looking for a Goshnar {task} ? You meet the treasure eh ?." />
+    </parameters>
+</npc>

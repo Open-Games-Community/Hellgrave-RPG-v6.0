@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<npc name="Raszageth" walkinterval="2000" floorchange="0" script="transcending_seal.lua">
+	<health now="150" max="150"/>
+	<look type="1656" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="I buy some kind of seal's, just say {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			harmonious seal, 36990, 247;
+			darkness seal, 36991, 280;
+			sacred seal, 36992, 310;
+			dimensional seal, 36993, 345;
+			primal seal, 36994, 405;
+			awakening seal, 36995, 560;
+			harmonious prismatic seal, 36996, 2470;
+			darkness prismatic seal, 36997, 2800;
+			sacred prismatic seal, 36998, 3100;
+			dimensional prismatic seal, 37005, 8625;
+			primal prismatic seal, 37006, 10125;
+			awakening prismatic seal, 37007, 14000;
+			harmonious celestial seal, 37098, 24700;
+			darkness celestial seal, 37099, 28000;
+			sacred celestial seal, 37100, 31000;
+			dimensional celestial seal, 37101, 215625;
+			primal celestial seal, 37102, 253125;
+			awakening celestial seal, 37103, 350000;"/>
+	</parameters>
+</npc>

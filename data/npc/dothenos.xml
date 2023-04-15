@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Dothenos" walkinterval="0" speed="0" walkradius="0" floorchange="0" script="dothenos.lua">
+    <health max="10000" now="10000"/>
+    <look type="1206" head="32" body="71" legs="54" feet="9" addons="3" />
+    <parameters>
+        <parameter key="message_greet" value="Welcome young adventurer, are you {looking} for something ?." />
+    </parameters>
+</npc>

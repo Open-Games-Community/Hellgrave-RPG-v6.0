@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Chest Event Starting, some chests are spawning around the world, find it and kill it! " />
+	<areaspawn delay="1000" fromx="31771" fromy="32304" fromz="7" tox="32137" toy="32659" toz="7">
+		<monster name="chest event" amount="20" />
+	</areaspawn>
+	<areaspawn delay="1000" fromx="32306" fromy="32058" fromz="7" tox="32527" toy="32374" toz="7">
+		<monster name="chest event" amount="20" />
+	</areaspawn>
+</raid>

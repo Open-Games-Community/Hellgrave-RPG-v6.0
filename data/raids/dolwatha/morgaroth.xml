@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="There is activity under the desert." />
+	<announce delay="30000" type="Event" message="A demonic presence has entered under the graves of the grimleech" />
+	<announce delay="60000" type="Event" message="Evil Cultist performed a ritual to call this demon deep in the bowels." />
+	<!--Single Spawns-->
+	<singlespawn delay="60000" name="Morgaroth" x="31857" y="32404" z="10"/>
+</raid>

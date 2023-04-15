@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hellsinger" walkinterval="1500" floorchange="0" currency="26314" script="time_coin_npc.lua">
+	<health now="100" max="100"/>
+	<look type="957" head="18" body="34" legs="75" feet="103" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, i {trade} Experience Scrolls and Goblin Scrolls for Time Coins."/>
+	</parameters>
+</npc>

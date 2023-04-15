@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<npc name="Pashya" walkinterval="1500" speed="120" walkradius="2" floorchange="0" script="herbalist_seller.lua">
+	<health now="150" max="150"/>
+	<look type="1279" head="54" body="16" legs="85" feet="32" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, do you want to check my shop ? Send me a {trade}."/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+			great health potion, 7591, 225;
+			great mana potion, 7590, 144;
+			great spirit potion, 8472, 228;
+			health potion, 7618, 50;
+			mana potion, 7620, 56;
+			strong health potion, 7588, 115;
+			strong mana potion, 7589, 93;
+			supreme health potion, 26031, 625;
+			ultimate mana potion, 26029, 379;
+			ultimate health potion, 8473, 438;
+			ultimate spirit potion, 26030, 438;"/>
+		<parameter key="shop_sellable" value="
+			kresch plant, 6089, 610;
+			willow plant, 6090, 9950;
+			gynura leaves, 6106, 12850;
+			hemp leaves, 6387, 520;
+			marsh plant, 6105, 125;
+			cantharellus, 6547, 1300;
+			purple cantharellus, 6548, 1070;
+			amanita spissa, 6549, 16500;
+			delphinium, 6550, 970;
+			pilea leaf, 6551, 15475;
+			withered grass, 6556, 115;
+			magic leaf, 6557, 850;
+			enchanted magic leaf, 7242, 16275;
+			rivercress leaf, 7243, 180;
+			twistcress leaf, 7244, 400;
+			shellbed leaf, 7245, 145;
+			autumn leaves, 7246, 970;
+			three leaf clover, 7247, 270;
+			laurel leaf, 7248, 300;
+			divine plant of the depths, 7249, 12900;
+			amanite, 7286, 1070;
+			boletus, 8267, 290;
+			cave mushroom, 8584, 245;
+			laurel plant, 8694, 215;
+			underwater plant, 9002, 890;
+			calocera viscosa, 9117, 16750;
+			cactus leaf, 2236, 685;
+			ganoderma lucidium, 9674, 17650;
+			herbaceous root, 9675, 360;"/>
+	</parameters>
+</npc>
