@@ -173,6 +173,14 @@ function action.onUse(creature, item, fromPosition, target, toPosition, isHotkey
         if confKey == 'success' then
             target:transform(upgradeId)
             target:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, ItemType(target:getId()):getDescription().."\nRefined by "..creature:getName()..".")
+            local levels = {
+		expgainmin = 75, -- DO NOT CHANGE !
+		expgainmax = 115, -- DO NOT CHANGE !
+	}
+	local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
+        if giveChaosUpgradeExperience(creature:getId(), experienceRan) then
+         creature:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Chaos Upgrade skill.")
+        end
         end
         if confKey == 'fail' and target.itemid == 29223 and creature:removeItem(24966, 1) then
             target:transform(29223)
@@ -457,14 +465,6 @@ function action.onUse(creature, item, fromPosition, target, toPosition, isHotkey
             end
         item:remove(1)
         chaosPoints_remove(creature, 1)
-        local levels = {
-		expgainmin = 75, -- DO NOT CHANGE !
-		expgainmax = 115, -- DO NOT CHANGE !
-	}
-	local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
-        if giveChaosUpgradeExperience(creature:getId(), experienceRan) then
-         creature:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Chaos Upgrade skill.")
-        end
     end
     return true
 else

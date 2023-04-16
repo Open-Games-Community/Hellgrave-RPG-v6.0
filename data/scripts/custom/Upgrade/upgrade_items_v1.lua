@@ -114,6 +114,11 @@ end
    if(level < #conf["level"]) and level < 5 then
    local nLevel = (conf["level"][(level+1)].successPercent >= math.random(1,100)) and (level+1) or conf["level"][level].downgradeLevel
    if(nLevel > level)then
+    local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
+    if giveNormalUpgradeExperience(cid:getId(), experienceRan) then
+      cid:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Upgrade skill.")
+      
+    end
    doSendMagicEffect(cid:getPosition(), 244)
    doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Upgrade your " .. it:getName() .. " to level " .. nLevel .. " successful!")
    else
@@ -131,11 +136,6 @@ end
    else
    doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Your " .. it:getName() .. " is on max level or you cannot use this scroll on this item.")
    end
-   local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
-    if giveNormalUpgradeExperience(cid:getId(), experienceRan) then
-    cid:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Upgrade skill.")
-    
-    end
    else
    doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You cannot upgrade this item.")
    end
@@ -146,6 +146,11 @@ elseif item.itemid == 7855 then
    if conf["level"] and level < 10 and level > 4 then
    local nLevel = (conf["level"][(level+1)].successPercent >= math.random(1,100)) and (level+1) or conf["level"][level].downgradeLevel
    if(nLevel > level)then
+    local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
+    if giveNormalUpgradeExperience(cid:getId(), experienceRan) then
+      cid:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Upgrade skill.")
+      
+    end
    doSendMagicEffect(cid:getPosition(), 244)
    doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Upgrade your " .. it:getName() .. " to level " .. nLevel .. " successful!")
    else
@@ -162,11 +167,6 @@ elseif item.itemid == 7855 then
    else
    doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Your " .. it:getName() .. " is on max level or you cannot use this scroll on this item.")
    end
-   local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
-  if giveNormalUpgradeExperience(cid:getId(), experienceRan) then
-    cid:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Upgrade skill.")
-    
-  end
    else
    doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You cannot upgrade this item.")
    end

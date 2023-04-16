@@ -119,6 +119,14 @@ function action.onUse(creature, item, fromPosition, target, toPosition, isHotkey
         if confKey == 'success' then
             target:transform(upgradeId)
             target:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, ItemType(target:getId()):getDescription().."\nRefined by "..creature:getName()..".")
+            local levels = {
+                expgainmin = 75, -- DO NOT CHANGE !
+                expgainmax = 115, -- DO NOT CHANGE !
+            }
+            local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
+                if giveTranscendingUpgradeLevel(creature:getId(), experienceRan) then
+                 creature:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Transcending Upgrade skill.")
+                end
         end
         if confKey == 'fail' and target.itemid == 40701 and creature:removeItem(25895, 1) then
             creature:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Transcending has failed, the item has been protected with Sacred Protection Scroll.")
@@ -163,14 +171,6 @@ function action.onUse(creature, item, fromPosition, target, toPosition, isHotkey
             end
         item:remove(1)
         awakeningPoints_remove(creature, 1)
-        local levels = {
-            expgainmin = 75, -- DO NOT CHANGE !
-            expgainmax = 115, -- DO NOT CHANGE !
-        }
-        local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
-            if giveTranscendingUpgradeLevel(creature:getId(), experienceRan) then
-             creature:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Transcending Upgrade skill.")
-            end
     end
     return true
 else

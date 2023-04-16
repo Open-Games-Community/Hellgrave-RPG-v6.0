@@ -149,12 +149,19 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
             pos:sendMagicEffect(CONST_ME_POFF)
             return true
         end
+
+
         -- Use the "success" table in config if the random value is less than or equal to the chance, otherwise use the "fail" table
         local confKey = (math.random(100) <= keyConfig.chance and 'success' or 'fail')
         local resultConfig = config.messages[confKey]
         pos:sendMagicEffect(resultConfig.effect)
         player:sendTextMessage(MESSAGE_INFO_DESCR, resultConfig.text)
         if confKey == 'success' then
+            local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
+        if giveNormalMagicExperience(player:getId(), experienceRan) then
+            player:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Mage Upgrade skill.")
+    
+        end
             target:transform(upgradeId)
             target:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, ItemType(target:getId()):getDescription().."\nRefined by "..player:getName()..".")
         end
@@ -212,11 +219,6 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
             target.transform(35059)
         end
         item:remove(1)
-        local experienceRan = math.random(levels.expgainmin, levels.expgainmax)
-        if giveNormalMagicExperience(player:getId(), experienceRan) then
-            player:sendTextMessage(MESSAGE_INFO_DESCR, "You have gained "..experienceRan.." experience on Mage Upgrade skill.")
-    
-        end
     end
     return true
 end
