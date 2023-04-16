@@ -2957,7 +2957,7 @@ local weapons = {
 		mana = 2,
 		damage = {4, 8},
 		vocation = {
-			{"Mage", true}}
+			{"Priest", true}}
 	},
 	{
 		itemId = 23590,

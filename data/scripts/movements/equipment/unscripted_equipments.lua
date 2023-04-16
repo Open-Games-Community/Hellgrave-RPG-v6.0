@@ -4183,7 +4183,11 @@ if not equipmentsTable then
 		{
 			itemid = 23721,
 			type = "deequip",
-			slot = "hand"
+			slot = "hand",
+			vocation = {
+				{"Priest", true},
+				{"Elite Priest"}
+			}
 		}, -- the chiller
 		{
 			itemid = 23719,
