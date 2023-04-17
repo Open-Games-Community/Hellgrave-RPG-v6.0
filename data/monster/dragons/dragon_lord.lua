@@ -91,6 +91,7 @@ monster.loot = {
 	{name = "life crystal", chance = 680},
 	{name = "fire sword", chance = 290},
 	{name = "strange helmet", chance = 360},
+	{name = "evil dragon wing", chance = 1300},
 	{name = "dragon scale mail", chance = 170},
 	{name = "royal helmet", chance = 280},
 	{name = "tower shield", chance = 250},

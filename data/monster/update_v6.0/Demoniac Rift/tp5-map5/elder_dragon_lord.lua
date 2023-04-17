@@ -78,7 +78,6 @@ monster.summons = {
 monster.loot = {
 	{name = "crystal coin", chance = 11000, maxCount = 4},
 	{name = "feather of fate", chance = 4000},
-	{name = "evil dragon wing", chance = 2000},
 	{name = "rare bird feather", chance = 11000},
 	{name = "elder dragon tail", chance = 2000},
 	{name = "eldritch crystal", chance = 4000},
