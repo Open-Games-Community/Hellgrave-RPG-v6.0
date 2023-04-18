@@ -2,6 +2,7 @@
 
 Compiling server:
 Start Using VCPKG added on this github vcpkg_v6, extract and integrate it on visual studio.
+About the error Crypto lib, you need download the pre-compiled version on forum ( link below ) and open folder called Crypto, follow steps on info.txt
 
 Hellgrave RPG Server is a custom RPG Tibia Server protocol 12.72 created by Edisondario Team using the Otservbr base fork.
 This server has been Updated to the version v6.0 introducing a lot of new content, features and more, to get a longterm play server.
