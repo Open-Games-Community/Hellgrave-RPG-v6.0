@@ -95,7 +95,6 @@ monster.attacks = {
 	{name ="effect", interval = 2000, chance = 15, range = 7, radius = 6, shootEffect = CONST_ANI_SMALLEARTH, effect = CONST_ME_PLANTATTACK, target = true},
 	{name ="combat", interval = 2000, chance = 13, type = COMBAT_MANADRAIN, minDamage = -100, maxDamage = -200, radius = 8, effect = CONST_ME_POISONAREA, target = false},
 	{name ="lisa paralyze", interval = 2000, chance = 12, target = false},
-	{name ="lisa skill reducer", interval = 2000, chance = 15, target = false},
 	{name ="lisa wave", interval = 2000, chance = 11, minDamage = -400, maxDamage = -900, target = false}
 }
 

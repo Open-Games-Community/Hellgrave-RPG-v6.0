@@ -12,7 +12,6 @@
 		<parameter key="module_shop" value="1"/>
 		<parameter key="shop_sellable" value="
 			blue gem, 2158, 5000;
-			golden mug, 2033, 250;
 			green gem, 2155, 5000;
 			red gem, 2156, 1000;
 			violet gem, 2153, 10000;

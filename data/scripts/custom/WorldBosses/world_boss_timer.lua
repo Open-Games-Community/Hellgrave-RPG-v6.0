@@ -355,7 +355,7 @@ end
          local worldBossTrygosa = GlobalEvent("trygosaWb")
 
         local cfg = {
-            teleportPos = {x = 31765, y = 32568, z = 4, stackpos = 14},
+            teleportPos = {x = 32532, y = 32509, z = 9, stackpos = 14},
             teleportToPos = {x = 32756, y = 32553, z = 5},
             min = 60
          }
@@ -365,7 +365,7 @@ end
         end
         
          function worldBossTrygosa.onTime()
-            if(os.date("%A") == "Wednesday") then 
+            if(os.date("%A") == "Thursday") then 
                doCreateTeleport(1387, cfg.teleportToPos, cfg.teleportPos)
                Game.broadcastMessage("World Boss Trygosa has spawned!", MESSAGE_EVENT_ADVANCE)
                addEvent(removeMagicForcefield, cfg.min * 10 * 1000, getThingfromPos({x = 32532, y = 32509, z = 9, stackpos = 1}).uid, 1)
@@ -375,7 +375,7 @@ end
             return true
          end
         
-         worldBossTrygosa:time("12:00:00")
+         worldBossTrygosa:time("15:22:35")
          worldBossTrygosa:register()
 
 

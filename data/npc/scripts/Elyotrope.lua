@@ -34,19 +34,32 @@ local function creatureSayCallback(cid, type, msg)
 	elseif msgcontains(msg, "mining") then
 		npcHandler:say("If you got already the Pick, you can check near me the crystal you can start mining on the world. If you didnt have the Adentis Pick as me for a {mission}", cid)
 	elseif msgcontains(msg, "mission") then
+	if player:getStorageValue(114901) == 1 then
+		npcHandler:say("You already finished this mission", cid)
+		else
 		npcHandler:say("My studies indicate that dragons are everywhere near the mountains where the minerals abound. We have to stop him. ...", cid)
 		npcHandler:say("Therefore I need you to go kill them and catch me 10 Dragon's Tail. Are you willing to help me in this dire mission?", cid)
 		npcHandler.topic[cid] = 2
+		end
 	elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 2 then
+	if player:getStorageValue(114901) == 1 then
+		npcHandler:say("You already finished this mission", cid)
+		else
 		setPlayerStorageValue(cid, Storage.CraftSystem.Tools.Job, 1)
 		npcHandler:say("Good! Go kill some dragons and come back when you get 25 Dragon's Tail, then come back and ask me for {Dragons Tail}.", cid)
+		end
 	elseif msgcontains(msg, "Dragon's Tail") or msgcontains(msg, "Dragons tail") then
+	 if player:getStorageValue(114901) == 1 then
+		npcHandler:say("You already finished this mission", cid)
+		else
 		npcHandler:say("Do you have 25 {Dragon's Tail} to bring me?", cid)
 		npcHandler.topic[cid] = 3
+	end
 	elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 3 then
 		if player:removeItem(12413, 25) then
 			npcHandler:say("Excellent! You can now ask me for {trade} to buy tools for gather some resources. ", cid)
 			setPlayerStorageValue(cid, Storage.CraftSystem.Tools.Job, 2)
+			setPlayerStorageValue(cid, 114901, 1)
 		else
 			npcHandler:say("You don\'t have the 10 {Dragon's Tail}  back here when you got the items.", cid)
 			npcHandler:releaseFocus(cid)

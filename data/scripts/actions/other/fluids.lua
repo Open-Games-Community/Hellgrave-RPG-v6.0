@@ -150,34 +150,6 @@ function fluid.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			player:sendTextMessage(MESSAGE_FAILURE, 'It is empty.')
 
 		else
-			if item.type == 2 and target.actionid == 2023 then
-				toPosition.y = toPosition.y + 1
-				local creatures, destination = Tile(toPosition):getCreatures(), Position(32791, 32332, 10)
-				if #creatures == 0 then
-					graveStoneTeleport(player.uid, fromPosition, destination)
-				else
-					local creature
-					for i = 1, #creatures do
-						creature = creatures[i]
-						if creature and creature:isPlayer() then
-							graveStoneTeleport(creature.uid, toPosition, destination)
-						end
-					end
-				end
-
-			else
-				if toPosition.x == CONTAINER_POSITION then
-					toPosition = player:getPosition()
-				end
-
-				local pool = Game.createItem(2016, item.type, toPosition)
-				if pool then
-					pool:decay()
-    				if item.type == 1 then
-    					checkWallArito(pool, toPosition)
-    				end
-				end
-			end
 			item:transform(item.itemid, 0)
 		end
 	end
@@ -185,6 +157,6 @@ function fluid.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	return true
 end
 
-fluid:id(1775, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2023, 2031, 2032, 2033, 2034, 2562, 2574, 2575, 2576, 2577)
+fluid:id(1775, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2023, 2031, 2032, 2034, 2562, 2574, 2575, 2576, 2577)
 fluid:register()
 

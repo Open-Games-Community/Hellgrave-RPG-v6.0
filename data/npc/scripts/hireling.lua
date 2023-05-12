@@ -366,7 +366,7 @@ local function handleBankActions(cid, msg)
 	elseif npcHandler.topic[cid] == 1201 then
 		count[cid] = getMoneyCount(msg)
 		if isValidMoney(count[cid]) then
-			npcHandler:say('Would you really like to deposit ' .. count[cid] .. ' gold?', cid)
+			npcHandler:say('Would you really like XXX to deposit ' .. count[cid] .. ' gold?', cid)
 			npcHandler.topic[cid] = 1202
 			return true
 		else
