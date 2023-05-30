@@ -55,8 +55,15 @@ local function spawnEventCreatures(wave, indexTracker)
 end
 
 local function flopLever(position, leverId, transformTo)
-    Tile(position):getItemById(leverId):transform(transformTo)
+    local tile = Tile(position)
+    if tile then
+        local lever = tile:getItemById(leverId)
+        if lever then
+            lever:transform(transformTo)
+        end
+    end
 end
+
 
 local function removeLever(position, leverId)
     Tile(position):getItemById(leverId):remove()
