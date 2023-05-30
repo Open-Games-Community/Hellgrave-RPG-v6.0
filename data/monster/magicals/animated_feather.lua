@@ -85,7 +85,6 @@ monster.loot = {
 	{name = "Hailstorm Rod", chance = 250},
 	{name = "Life Crystal", chance = 8700},
 	{name = "Great Mana Potion", chance = 900, maxCount = 6},
-	{name = "Golden Mug", chance = 500},
 	{name = "Glowing Rune", chance = 500, maxCount = 10},
 	{name = "Energy Ring", chance = 8700},
 	{name = "Quill", chance = 250},

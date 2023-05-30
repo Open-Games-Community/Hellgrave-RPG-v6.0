@@ -1760,11 +1760,6 @@
 		<attribute key="loottype" value="tool" />
 		<attribute key="pickupable" value="1" />
 	</item>
-	<item id="2033" article="a" name="golden mug">
-		<attribute key="loottype" value="container" />
-		<attribute key="weight" value="470" />
-		<attribute key="pickupable" value="1" />
-	</item>
 	<item id="2034" article="a" name="large amphora" />
 	<item id="2035" article="a" name="plate">
 		<attribute key="loottype" value="tool" />
