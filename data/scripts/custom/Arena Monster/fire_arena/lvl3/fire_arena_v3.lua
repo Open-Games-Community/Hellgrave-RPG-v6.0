@@ -100,7 +100,7 @@ local function monitorEvent(leverPosition)
     addEvent(Position.sendMagicEffect, 2500, leverPosition, CONST_ME_MORTAREA)
 end
 
-local function eventManager(player, leverPosition)
+local function eventManager(leverPosition)
     flopLever(leverPosition, event.leverIds[1], event.leverIds[2])
     addEvent(Position.sendMagicEffect, 500, leverPosition, CONST_ME_POFF)
     addEvent(Position.sendMagicEffect, 1500, leverPosition, CONST_ME_POFF)
