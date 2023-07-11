@@ -10,9 +10,13 @@ This server has been Updated to the version v6.0 introducing a lot of new conten
 Any Issue or Bug [Report here](https://github.com/Open-Games-Community/Hellgrave-RPG-v6.0/issues)
 
 [Hellgrave Windows v6.0 already compiled](https://opengamescommunity.com/index.php?resources/hellgrave-rpg-server-v6-0-windows.843/)
+
 [Hellgrave Linux v6.0 already compiled](https://opengamescommunity.com/index.php?resources/hellgrave-rpg-server-v6-0-linux.868/)
+
 [Hellgrave Client v6.0](https://opengamescommunity.com/index.php?resources/hellgrave-client-v6-0.844/)
+
 [Hellgrave ZnoteAAC Remastered v5.5 - Compatible v6.0](https://opengamescommunity.com/index.php?resources/hellgrave-remastered-znoteaac-v5-5-compatible-v6-0.845/)
+
 
 Update v6.0 introduces:
 
