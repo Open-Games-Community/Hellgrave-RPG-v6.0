@@ -1,5 +1,7 @@
 # Hellgrave RPG Server v6.0
 
+### Any problem related to compilation download the version from forum https://opengamescommunity.com via a Launcher that has all in one updated!
+
 Compiling server:
 Start Using VCPKG added on this github vcpkg_v6, extract and integrate it on visual studio.
 About the error Crypto lib, you need download the pre-compiled version on forum ( link below ) and open folder called Crypto, follow steps on info.txt
